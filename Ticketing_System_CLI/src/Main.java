@@ -13,8 +13,8 @@ public class Main {
         // Directly set the configurations
         TicketPool ticketPool = new TicketPool(config.getMaxTicketCapacity());
 
-        // Define the number of vendors (fixed to 5)
-        int numberOfVendors = 3;
+        // Define the number of vendors
+        int numberOfVendors = 1;
         int ticketsPerVendor = config.getTotalTickets() / numberOfVendors;
 
         // Create and start vendor threads using user-configured parameters
